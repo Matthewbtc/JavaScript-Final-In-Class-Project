@@ -13,17 +13,18 @@ var chance
 
 //weapon choise
 var weapon == 
-var axe = hitpoint ++ 15, chance = 65
-var sword = hitpoint ++ 10, chance = 75
+var axe = hitpoint ++ 15, chance = 80
+var sword = hitpoint ++ 10, chance = 85
 //knives hit twice
 var knives =hitpoint++ 7, chance = 55
-var staff =hitpoint++ 25, chance =
+var staff =hitpoint++ 25, chance = 65
 var sourJems = hitpoint++ 5, chance = 95 
 
 alert("What is your ideal weapon?")
 prompt("An axe, sword, knives, staff, sourjems")
 
-//round 1: soft troll.
+//round 2: soft troll.
+//***loop round over and over till troll or player has fallen
 //attack low,and uncommon, hp med, and 
 var softTroll
 var health = 50
@@ -37,6 +38,21 @@ alert ("Prepare to fight the Soft Troll!")
 //run a chance gambler here
 //have chance run to hit 
 
-alert(player + " has delt " hitpoint )
+alert(player + " has delt " + hitpoint " damage." )
 
 //have the Soft Troll attack once
+
+
+alert("The Soft troll has delt 10 damage")
+
+//level 2
+var tinyFairy
+var Jabberwalky
+
+alert("You have progressed deaper within the woods and find a split in the road.")
+prompt ("Left or right?")
+if (prompt=left) {
+    Tiny Fairy
+} else {
+    Jabberwalky
+}
