@@ -4,19 +4,20 @@ prompt("Your player name...")
 
 //character proporties
 //before gameover
-var health
+var health == 100
 //your damnage
-var hitpoint
+var hitpoint == 20
 //your chance of hitting
 var chance
 
 //weapon choise
 var weapon = 
-var axe (hitpoint++ 15)
-var sword (hitpoint++ 10)
-var knives(hitpoint++ )
-var staff (hitpoint++ 25)
-var sourJems (hitpoint++ 0, )
+var axe = hitpoint= ++ 15, chance =
+var sword = hitpoint++ 10, chance =
+//knives hit twice
+var knives =hitpoint++ 7, chance 
+var staff =hitpoint++ 25, chance =
+var sourJems = hitpoint++ 5, chance = 75 
 
 alert("What is your ideal weapon?")
 prompt("An axe, sword, knives, staff, sourjems")
